@@ -1,0 +1,44 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        form {
+            margin: 0 auto;
+            width: 250px;
+            border: 3px dotted black;
+        }
+        ul{
+            list-style: none;
+            padding: 25px;
+            margin: 0;
+        }
+        li{
+            padding-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        <form method="POST" action="/logout">
+            <ul>
+                <li>
+                    <h1>Witaj {{ name }}!</h1>
+                </li>
+                <li>
+                    <h5>Czas w aktualnej sesji {{ age }}</h5>
+                </li>
+                <li>
+                    <input type="submit" name="logout" value="Logout">
+                </li>
+            </ul>
+        </form>
+    </p>
+</body>
+</html>
+
+
+<body>
+
+
+
+</body>
